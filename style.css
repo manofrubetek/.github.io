@@ -1,0 +1,122 @@
+body{
+	/*overflow-y: hidden;*/
+	/*height: 100%;*/
+}
+.wrapper {
+	max-width: 780px;
+	height: 100%;
+	padding: 40px 10px;
+	/*padding-left: 10px;*/
+	margin-right: auto;
+	margin-left: auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: url(img/1579517959_6-19.jpg) no-repeat;
+	 background-size: cover;
+
+    /*-moz-background-size: 100%; /* Firefox 3.6+ */
+    /*-webkit-background-size: 100%;  Safari 3.1+ и Chrome 4.0+ */
+    /*-o-background-size: 100%; /* Opera 9.6+ */
+    /*background-size: 100%;  Современные браузеры */
+}
+.main-title {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	max-width: 170px;
+	
+}
+.main-title img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.title {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	font-size: 32px;
+	max-width: 350px;
+	text-align: center;
+	/*padding-left: 20px;*/
+}
+.title p {
+	margin-block-start: 0.7em;
+    margin-block-end: 0.7em;
+
+}
+.text {
+		display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	max-width: 540px;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 20px;
+}
+.text p:last-child{
+	transform: rotate(180deg);
+	text-align: center;
+}
+
+.text p {
+	text-indent: 20px;
+	margin-block-start: 0.7em;
+  margin-block-end: 0.7em;
+}
+.img-container {
+		display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	max-width: 300px;
+	align-items: center;
+	padding-right: 50px;
+	padding-left: 30px;
+}
+.img-container img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.plain img{
+	position: absolute;
+	top: -90%;
+	right: -90%;
+	-webkit-transition: top 1s ease-out 0.5s;
+     -moz-transition: top 1s ease-out 0.5s;
+     -o-transition: top 1s ease-out 0.5s;
+     transition: top 1s ease-out 0.5s;
+    
+}
+.plain img:hover { 
+	top: 100%;
+	right: 100%; } 
+
+@media (max-width: 576px) {
+.title {
+	font-size: 28px;
+
+}
+
+.text {
+	font-size: 18px;
+}
+body {
+	/*margin-top: 10px;*/
+	vertical-align: middle;
+}
