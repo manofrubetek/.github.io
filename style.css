@@ -40,6 +40,7 @@ body{
 	max-height: 47px;
 	height: auto;
 	display: block;
+	max-height: 47px;
 }
 .title {
 	display: -webkit-flex;
