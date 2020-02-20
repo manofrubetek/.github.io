@@ -115,3 +115,18 @@ body {
 }
 
 }
+
+@media (max-width: 370px) {
+.title {
+	font-size: 26px;
+}
+.zh {
+	font-size: 12px;
+}
+.text {
+	font-size: 16px;
+
+}
+
+
+}
