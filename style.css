@@ -32,11 +32,12 @@ body{
 	display: -o-flex;
 	display: flex;
 	max-width: 170px;
-	max-height: 47px;
+	
 	
 }
 .main-title img{
 	width: 100%;
+	max-height: 47px;
 	height: auto;
 	display: block;
 }
