@@ -99,9 +99,10 @@ body{
 @media (max-width: 576px) {
 .title {
 	font-size: 28px;
-
 }
-
+.zh {
+	font-size: 14px;
+}
 .text {
 	font-size: 18px;
 		max-width: 340px;
@@ -112,7 +113,5 @@ body {
 	/*margin-top: 10px;*/
 	vertical-align: middle;
 }
-.text {
-
 
 }
