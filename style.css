@@ -36,9 +36,8 @@ body{
 }
 .main-title img{
 	width: 100%;
-	height: auto !important;
+	height: auto;
 	display: block;
-	max-height: 47px;
 }
 .title {
 	display: -webkit-flex;
@@ -94,19 +93,8 @@ body{
 	height: auto;
 	display: block;
 }
-.plain img{
-	position: absolute;
-	top: -90%;
-	right: -90%;
-	-webkit-transition: top 1s ease-out 0.5s;
-     -moz-transition: top 1s ease-out 0.5s;
-     -o-transition: top 1s ease-out 0.5s;
-     transition: top 1s ease-out 0.5s;
-    
-}
-.plain img:hover { 
-	top: 100%;
-	right: 100%; } 
+
+
 
 @media (max-width: 576px) {
 .title {
@@ -116,8 +104,15 @@ body{
 
 .text {
 	font-size: 18px;
+		max-width: 340px;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 body {
 	/*margin-top: 10px;*/
 	vertical-align: middle;
+}
+.text {
+
+
 }
