@@ -118,14 +118,14 @@ body {
 
 @media (max-width: 370px) {
 .title {
-	font-size: 26px;
+	font-size: 24px;
 }
 .zh {
-	font-size: 12px;
+	font-size: 10px;
 }
 .text {
 	font-size: 16px;
-
+max-width: 250px;
 }
 
 
