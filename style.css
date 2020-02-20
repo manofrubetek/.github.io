@@ -38,6 +38,7 @@ body{
 	width: 100%;
 	height: auto !important;
 	display: block;
+	max-height: 47px;
 }
 .title {
 	display: -webkit-flex;
