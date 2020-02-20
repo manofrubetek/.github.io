@@ -36,8 +36,9 @@ body{
 }
 .main-title img{
 	width: 100%;
-	height: auto;
+	height: auto !important;
 	display: block;
+	max-height: 47px;
 }
 .title {
 	display: -webkit-flex;
@@ -67,7 +68,7 @@ body{
 	padding-left: 20px;
 	font-size: 20px;
 }
-.text p:last-child{
+.rotate{
 	transform: rotate(180deg);
 	text-align: center;
 }
