@@ -1,6 +1,7 @@
 body{
 		background: url(img/1579517959_6-19.jpg) no-repeat;
 	 background-size: 100% 100%;
+	 min-height: 100vh;
 }
 .wrapper {
 	max-width: 780px;
