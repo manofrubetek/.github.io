@@ -1,6 +1,6 @@
 body{
-	/*overflow-y: hidden;*/
-	/*height: 100%;*/
+		background: url(img/1579517959_6-19.jpg) no-repeat;
+	 background-size: 100% 100%;
 }
 .wrapper {
 	max-width: 780px;
@@ -17,8 +17,7 @@ body{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background: url(img/1579517959_6-19.jpg) no-repeat;
-	 background-size: cover;
+
 
     /*-moz-background-size: 100%; /* Firefox 3.6+ */
     /*-webkit-background-size: 100%;  Safari 3.1+ и Chrome 4.0+ */
